@@ -1,2 +1,2 @@
-# Yaqure
+# Ysqure
 interviewtask
