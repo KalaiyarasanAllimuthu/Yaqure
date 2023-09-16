@@ -1,0 +1,65 @@
+/* Style for the container div */
+.employee-manager {
+  max-width: 400px; /* Adjust as needed */
+  margin: 0 auto;
+  margin-left: -100px;
+  margin-top: 90px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.img{
+  width: 90%;
+  height: 100%;
+  margin-left: 380px;
+  background-image: url('img/ysqure.png'); 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ 
+   /* Set text color to contrast with the background */
+}
+
+/* Style for the form */
+.registration-form {
+  margin-top: 20px;
+}
+
+/* Style for form groups (each input + label) */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.employee-input {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.employee-button {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.employee-button:not([type="primary"]) {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding-bottom: 20px; 
+  width: 50%;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
